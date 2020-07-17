@@ -10,7 +10,7 @@ local isInJoblistingMarker 		  = false
 ESX = nil
 
 local blips = {
-    {name="Lester Jobs", id=84, x = 1272.385, y = -1714.821, z = 54.771, color = 49, heading=190.701, scale=0.7 },
+    {name = _U('Lester_Jobs'), id=84, x = 1272.385, y = -1714.821, z = 54.771, color = 49, heading=190.701, scale=0.7 },
 }
 
 Citizen.CreateThread(function()
@@ -139,3 +139,5 @@ Citizen.CreateThread(function()
 		end
 	end
 end)
+
+--Que mais scripts acessem https://forum.esxbrasil.website/

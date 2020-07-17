@@ -24,3 +24,4 @@ AddEventHandler('esx_lesterjobs:setJob', function(job)
 	local xPlayer = ESX.GetPlayerFromId(_source)
 	xPlayer.setJob(job, 0)
 end)
+--Que mais scripts acessem https://forum.esxbrasil.website/
